@@ -1,0 +1,157 @@
+/* Import required fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400&family=Space+Grotesk:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F6F8; 
+    display: flex;
+    justify-content: center;
+}
+
+/* 1. The Main Frame */
+.empty-state-frame {
+    width: 1440px;
+    min-height: 776px;
+    background: #F5F6F8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 2. Navigation Bar (Top) */
+.navigation {
+    width: 100%; 
+    height: 60px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E3E5E8;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-graphic {
+    width: 17px;
+    height: 18px;
+    object-fit: cover; 
+}
+
+.logo-text {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #14161A;
+}
+
+.nav-links {
+    display: flex;
+    gap: 26px;
+}
+
+.nav-links a {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 1; 
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    color: #5B616C;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #14161A;
+}
+
+.admin-login-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1; 
+    color: #FFFFFF;
+    background-color: #14161A; 
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.admin-login-btn:hover {
+    opacity: 0.8;
+}
+
+/* 3. Body Content (Center) */
+.body-content {
+    width: 1280px;
+    height: 433px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.circles-graphic {
+    margin-bottom: 24px;
+}
+
+.heading-2 {
+    font-family: 'Space Grotesk', sans-serif; 
+    font-weight: 700;
+    font-size: 24px;
+    color: #14161A; 
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.description-text {
+    width: 360px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5; 
+    color: #5B616C; 
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* Secondary Button (Clear all filters) */
+.secondary-btn {
+    width: 141px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: transparent;
+    padding: 6px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Button Text Properties */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1; /* 100% */
+    color: #14161A;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.secondary-btn:hover {
+    background-color: #E3E5E8; 
+}
