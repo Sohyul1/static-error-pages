@@ -146,7 +146,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 13px;
-    line-height: 1; /* 100% */
+    line-height: 1; 
     color: #14161A;
     cursor: pointer;
     transition: background-color 0.2s ease;
