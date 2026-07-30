@@ -93,11 +93,13 @@ body {
     text-decoration: none;
     padding: 6px 17px;
     border-radius: 10px;
-    transition: opacity 0.2s ease;
+    transition: all 0.2s ease;
+    border: 1px solid #FF8800;
 }
 
 .primary-btn:hover {
-    opacity: 0.9;
+    background-color: transparent;
+    color: #FF8800;
 }
 
 

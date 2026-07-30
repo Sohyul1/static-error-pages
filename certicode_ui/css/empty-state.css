@@ -149,9 +149,13 @@ body {
     line-height: 1; 
     color: #14161A;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.1s ease, color 0.1s ease;
 }
 
 .secondary-btn:hover {
     background-color: #E3E5E8; 
+}
+.secondary-btn:active {
+    background-color: #14161A;
+    color: #FFFFFF;
 }
