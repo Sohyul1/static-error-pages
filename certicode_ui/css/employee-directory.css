@@ -101,6 +101,8 @@ body {
     justify-content: center;
     text-align: center;
     overflow: hidden;
+    background: linear-gradient(135deg, #1B2340 0%, #4A2E33 100%);
+
 }
 
 .project-tag {
@@ -264,6 +266,8 @@ body {
     background: linear-gradient(180deg, #232F42 0%, #182136 100%);
     position: relative;
     margin-bottom: 16px;
+    background: linear-gradient(135deg, #1B2340 0%, #4A2E33 100%);
+
 }
 
 .profile-gradient::after {
@@ -353,4 +357,9 @@ body {
 
 .footer-col a:hover {
     opacity: 0.7;
+}
+.filter-pill.active-pill {
+    background-color: #14161A;
+    color: #FFFFFF;
+    border-color: #14161A;
 }

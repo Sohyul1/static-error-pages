@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Detail — Certicode</title>
+<link rel="stylesheet" href="css/edpp.css">
+</head>
+<body>
+
+<div class="page">
+
+  <div class="hero">
+    <button class="breadcrumb" id="backBtn">&larr; Back to Employee Directory</button>
+
+    <div class="hero-body">
+      <div class="avatar" id="avatar"></div>
+      <div class="identity">
+        <h1 id="empName">Employee Name</h1>
+        <div class="meta">
+          <span id="empPosition">Position</span>
+          <span class="dot">&bull;</span>
+          <span id="empSince">Certicode since 2026</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2 class="section-title">Projects completed <span class="count" id="projectCount">(2)</span></h2>
+
+    <div class="cards" id="cardGrid">
+      <!-- Cards are rendered by script.js from the data array -->
+    </div>
+  </div>
+
+</div>
+
+<script src="js/edppp.js"></script>
+</body>
+</html>
